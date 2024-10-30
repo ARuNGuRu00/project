@@ -1,0 +1,214 @@
+.nav-bar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 72px;
+}
+
+.left,.center,.right,#nav-but,.profile{
+    background-color: rgb(54, 46, 65);
+    color:white;
+}
+
+.left,.logo{
+    vertical-align: middle;
+    align-items: center;
+    justify-content: left;
+    display:inline-flex;
+    font-family:"Caveat", serif;
+}
+
+.center{
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    display:inline-flex;
+}
+
+.right{
+    vertical-align: middle;
+    align-items: center;
+    justify-content: right;
+    display:inline-flex;
+}
+
+.search{
+    background-color:  rgb(84, 72, 100);
+    border:none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:15px;
+    padding-right: 15px;
+    font-size: 15px;
+    width:50%;
+    display: block;
+    color: white;
+    margin-right: 15px;
+    border-radius:30px ;
+}
+
+.material-icons{
+    justify-content: center;
+    align-items:center;
+    font-size: 30px;
+    display: block;
+}
+
+
+
+#nav-but{
+    margin-left: 10px;
+    margin-right: 10px;
+    border:none;
+    border-radius: 25px;
+    opacity: .7;
+    transition: opacity 0.5;
+}
+
+#nav-but:hover{
+    opacity: 1;
+}
+.profile:active,#nav-but:active,.logo:active{
+    opacity: .8;
+}
+.profile{
+    border:none;
+    vertical-align: middle;
+    border-radius: 50px;
+    transition: opaticy .5;
+}
+
+.profile_img{
+    object-fit: cover;
+    object-position: center;
+    width:72px;
+    border:none;
+    border-radius: 50px;
+}
+
+
+
+.brand_icon{
+    width: 50px;
+    padding-left: 15px;
+}
+
+.brand_name{
+    font-family:"Potta One", serif;
+    font-size: 30px;
+    padding-left: 8px;
+    
+}
+
+.main{
+
+    display: flex;
+    justify-content: center;
+
+}
+.call{
+    
+    padding-top: 40px;
+    border-radius: 10px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    width:700px;
+    background-color:  rgb(42, 36, 49);
+    
+
+}
+
+.com-logo{
+    margin-left: 10px;
+    width: 75px;
+    border: none;
+    display: inline-block;
+    border-radius: 30px;
+}
+.CDetails{
+    padding-top:5px;
+    display: inline-block;
+    vertical-align: top;
+}
+.company{
+    display: block;
+    padding-left:10px;
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.address{
+    display: block;
+    padding-left: 10px;
+    padding-top:3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color:rgb(168, 148, 181);
+
+}
+
+.job-call,.job-buts{
+    padding-top:20px;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+ul{
+    padding-left: 0px;
+}
+li{
+    padding-left:20px;
+    list-style-type: none;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-weight: bold;
+}
+
+.value{
+    color:rgb(185, 145, 235);
+    padding-left:10px;
+    font-weight: lighter;
+}
+
+.description-title{
+    padding-left: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.description{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#job-but{
+    border:none;
+    padding-left:15px;
+    margin-right:10px;
+    padding-right:15px;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color: rgb(41, 41, 230);
+    color: white;
+    font-size:15px;
+    font-weight: lighter;
+    border-radius: 20px;
+    opacity:.9;
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+#job-but:hover{
+    opacity:1;
+}
+
+#job-but:active{
+    opacity: .8;
+}
+
+.material-symbols-outlined{
+    vertical-align: middle;
+    font-size: 18px;
+}
